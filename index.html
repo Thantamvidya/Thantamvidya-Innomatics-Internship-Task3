@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Solving</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="disp_flex">
+    
+    <div class="problem1">
+        <h2 id="atm">1.ATM Withdrawal System</h2>
+
+       <lable id="amount">Ammount:<input type="number" id="atmAmount"></lable> 
+       <lable id="atmenteredpin">ATM_PIN:<input type="password" id="atmEnteredPin"></lable>
+       <lable id="atm_pin">PIN:<input type="password" id="atmpin"></lable> 
+        <button id="btn" onclick="AtmWithdrawal()">Withdraw</button>
+      <label id="balance">Balance:<li id="atmResult"></li></label>
+    </div>
+
+     <div class="problem2">
+        <h2 id="online_shopping">2.Online Shopping Discount & Free Shipping</h2>
+        <lable id="ammount_order">Order_Ammount:<input type="number" id="orderAmount"></lable>
+        <button id="btn1" onclick="CalculateFinalAmount()">Calculate Final Amount</button>
+        <label id="Ammount">Ammount:<li id="shoppingAmmount"></li></label>
+    </div>
+
+     <div class="problem3">
+        <h2 id="student_grade">3.Student Grading System with Extra Credit</h2>
+        <lable id="marks">Percentage:<input type="number" id="stu_marks"></lable>
+        <lable id="attend">Attendance:<input type="number" id="attendance"></lable>
+        <button id="btn2" onclick="CalculateGrade()">Calculate Grade</button>
+        <label id="grade">Grade:<li id="gResult"></li></label>
+    </div>
+
+   
+
+    <div class="problem4">
+        <h2 id="traffic_system">4.Smart Traffic Light System</h2>
+        <lable id="density">Traffic_Density:<input type="text" id="trafficDensity"></lable>
+        <button id="btn3" onclick="TrafficLightControl()">Get Green Light Duration</button>
+        <label id="duration">Duration:<p id="trafficResult"></p></label>
+    </div>
+     </div>
+
+     <div class="disp_flex1">
+     
+    <div class="problem5">
+        <h2 id="movie_ticket">5.Movie Ticket Pricing with Time and Age Discount</h2>
+        <lable id="age_num">Age:<input type="number" id="age"></lable>
+        <lable id="show_time">Show_Time_(24h):<input type="number" id="showTime"></lable>
+        <button id="btn4" onclick="CalculateTicketPrice()">Calculate Ticket Price</button>
+        <label id="ticket_p">Ticket_Price $ :<p id="ticketPrice"></p></label>
+    </div>
+
+
+    <div class="problem6">
+        <h2 id="job_filter">6.Job Application Filter</h2>
+        <lable id="age_job">Age:<input type="number" id="jobAge"></lable>
+        <lable id="experi">Experience_(years):<input type="number" id="experience"></lable>
+        <lable id="qualifi">Qualification:<input type="text" id="qualification"></lable>
+        <button id="btn5" onclick="IsEligibleForJob()">Check Eligibility</button>
+        <label id="results">SHOWS:<p id="jobResult"></p></label>
+    </div>
+
+    <div class="problem7">
+        <h2 id="e_commerce">7.E-commerce Coupon Redemption</h2>
+        <lable id="order_amt">Order_Amount:<input type="number" id="couponOrderAmount"></lable>
+        <lable id="code">Coupon_Code:<input type="text" id="couponCode"></lable>
+        <button id="btn6" onclick="ApplyCoupon()">Apply Coupon</button>
+        <label id="final_price">Final_Price:<p id="couponResult"></p></label>
+    </div>
+
+    
+    <div class="problem8">
+        <h2 id="fitness">8.Fitness Membership Plan</h2>
+        <lable id="plan_type">Plan_Type_(Basic/Premium/VIP):<input type="text" id="planType"></lable>
+        <input type="checkbox"id="wantsTrainer">Wants Trainer</br>
+        <input type="checkbox" id="wantsDietPlan">Wants_Diet_Plan
+        <button id="btn7" onclick="ChoosePlan()">Find_My_Plan</button>
+        <label id="plan_result">Plan Is:<p id="planResult"></p></label>
+    </div>
+
+</div>
+
+<div class="disp_flex2">
+
+    <div class="problem9">
+        <h2 id="electricity_bill">9.Electricity Bill Calculation with Peak Hours</h2>
+        <lable id="unit">Units:<input type="number" id="units"></lable>
+        <lable id="time">Time_of_Day_(24h):<input type="number" id="timeOfDay"></lable>
+        <button id="btn8" onclick="CalculateElectricityBill()">Calculate Bill</button>
+        <label id="bill">Show_Ammount:<p id="billResult"></p>
+    </div>
+
+    
+    <div class="problem10">
+        <h2 id="flight_ticket">10.Flight Ticket Booking System</h2>
+        <lable id="class_type">Class_Type_(Business/First)<input type="text" id="classType"></lable>
+        <lable id="luggage_weight">Luggage_Weight_(kg):<input type="number" id="luggageWeight"></lable></br>
+        <input type="checkbox" id="isStudent"> Is Student</br>
+        <input type="checkbox" id="isSenior"> Is Senior</br>
+        <button id="btn9" onclick="CalculateFlightFare()">Find My Plan</button>
+        <label id="flight_rst">Fare:<p id="flightResult"></p></label>
+    </div> 
+    
+</div> 
+      <script src="script.js"></script>
+
+</body>
+</html>
