@@ -1,0 +1,999 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+   
+}
+
+.disp_flex{
+    display: flex;
+}
+
+.problem1{
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -webkit-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -moz-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+#atm{
+    font-size: 24px;
+   font-weight: normal;
+   margin-top: 20px;
+   text-align: center;
+   font-weight: normal;
+}
+
+#amount{
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#atmAmount{
+    margin-left: 15px;
+    margin-top: 30px;
+    height: 30px;
+    width: 210px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+}
+
+#atmenteredpin{
+    margin-left: 14px;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 0;
+}
+
+#atmEnteredPin{
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 30px;
+    width: 210px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+}
+
+#atm_pin{
+    margin-left: 58px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#atmpin{
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 30px;
+    width: 210px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+}
+
+#btn{
+    margin-top: 29px;
+    width: 130px;
+    height: 35px;
+    margin-left: 132px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#btn:hover{
+    background-color: rgb(118, 112, 112);
+    color: white;
+}
+
+#atmResult{
+   color: red;
+   margin-left: 130px;
+   font-size: 17px;
+   list-style: none;
+}
+
+#balance{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 16px;
+}
+
+.problem2{
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -webkit-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -moz-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+#online_shopping{
+    font-size: 24px;
+   font-weight: normal;
+   margin-top: 20px;
+   text-align: center;
+   font-weight: normal;
+   margin-bottom: 20px;
+   margin-left: 5px;
+}
+
+#ammount_order{
+    margin-left: 9px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#orderAmount{
+    margin-left: 15px;
+    margin-top: 30px;
+    height: 30px;
+    width: 170px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+}
+
+#btn1{
+    margin-top: 29px;
+    width: 160px;
+    height: 35px;
+    margin-left: 112px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin-bottom: 39px;
+}
+
+#btn1:hover{
+    background-color: rgb(118, 112, 112);
+    color: white;
+}
+
+#Ammount{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 22px;
+}
+
+#shoppingAmmount{
+    color: red;
+    margin-left: 130px;
+    font-size: 17px;
+    list-style: none;
+}
+
+.problem3{
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -webkit-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -moz-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+#student_grade{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+#marks{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#stu_marks{
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 30px;
+    width: 210px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+}
+
+#attend{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#attendance{
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 30px;
+    width: 210px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+}
+
+#btn2{
+    margin-top: 25px;
+    width: 160px;
+    height: 35px;
+    margin-left: 132px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#btn2:hover{
+    background-color: rgb(118, 112, 112);
+    color: white;
+}
+
+#grade{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 16px;
+}
+
+#gResult{
+    color: red;
+    margin-left: 130px;
+    font-size: 17px;
+    list-style: none;
+}
+
+.problem4{
+    width: 300px;
+    height: 350px;
+    box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -webkit-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -moz-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+#traffic_system{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#density{
+    margin-left: 2px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#trafficDensity{
+    margin-left: 6px;
+    margin-top: 20px;
+    height: 30px;
+    width: 160px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+}
+
+#btn3{
+    margin-top: 29px;
+    width: 180px;
+    height: 35px;
+    margin-left: 72px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin-bottom: 39px;
+}
+
+#btn3:hover{
+    background-color: rgb(118, 112, 112);
+    color: white;
+}
+
+#duration{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 16px;
+}
+
+#trafficResult{
+    color: red;
+    margin-left: 130px;
+    font-size: 17px;
+    list-style: none;
+}
+
+.disp_flex1{
+    display: flex;
+}
+
+.problem5{
+    width: 350px;
+    height: 420px;
+    box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -webkit-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -moz-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+#movie_ticket{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#age_num{
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#age{
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 30px;
+    width: 210px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+
+#show_time{
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#showTime{
+    margin-left: 9px;
+    margin-top: 20px;
+    height: 30px;
+    width: 120px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+}
+
+#btn4{
+    margin-top: 29px;
+    width: 180px;
+    height: 35px;
+    margin-left: 72px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin-bottom: 39px;
+}
+
+#btn4:hover{
+    background-color: rgb(118, 112, 112);
+    color: white;
+}
+
+#ticket_p{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 16px;
+}
+
+#ticketPrice{
+    color: red;
+    margin-left: 130px;
+    font-size: 17px;
+    list-style: none;
+}
+
+.problem6{
+    width: 350px;
+    height: 420px;
+    box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -webkit-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -moz-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+#job_filter{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#age_job{
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#jobAge{
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 30px;
+    width: 210px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+
+#experi{
+    margin-left: 4px;
+    font-weight: bold;
+    font-size: 17px; 
+}
+
+#experience{
+    margin-left: 4px;
+    margin-top: 22px;
+    height: 30px;
+    width: 120px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+
+#qualifi{
+    margin-left: 4px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#qualification{
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 30px;
+    width: 168px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+
+#btn5{
+    margin-top: 29px;
+    width: 180px;
+    height: 35px;
+    margin-left: 72px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#btn5:hover{
+    background-color: rgb(118, 112, 112);
+    color: white;
+}
+
+#results{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 16px;
+}
+
+#jobResult{
+    color: red;
+    margin-left: 130px;
+    font-size: 17px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.problem7{
+    width: 350px;
+    height: 420px;
+    box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -webkit-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -moz-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+#e_commerce{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#order_amt{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+    
+#couponOrderAmount{
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 30px;
+    width: 190px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+    }
+
+#code{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+        
+#couponCode{
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+    } 
+    
+#btn6{
+    margin-top: 29px;
+    width: 180px;
+    height: 35px;
+    margin-left: 102px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+    
+#btn6:hover{
+    background-color: rgb(118, 112, 112);
+    color: white;
+}
+
+#final_price{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 26px;
+}
+
+#couponResult{
+    color: red;
+    margin-left: 130px;
+    font-size: 17px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.problem8{
+    width: 280px;
+    height: 420px;
+    box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -webkit-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -moz-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+#fitness{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 29px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#plan_type{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 17px; 
+}
+    
+#planType{
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 30px;
+    width: 230px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+
+#wantsTrainer{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+#wantsDietPlan{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+#btn7{
+    margin-top: 29px;
+    width: 180px;
+    height: 35px;
+    margin-left: 52px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+    
+#btn7:hover{
+    background-color: rgb(118, 112, 112);
+    color: white;
+}
+
+#plan_result{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+#planResult{
+    color: red;
+    margin-left: 30px;
+    font-size: 17px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.disp_flex2{
+    display: flex;
+}
+
+.problem9{
+    width: 340px;
+    height: 420px;
+    box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -webkit-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -moz-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+#electricity_bill{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 29px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#unit{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 17px; 
+}
+    
+#units{
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 30px;
+    width: 230px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    margin-bottom: 25px;
+}
+
+#time{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px; 
+}
+    
+#timeOfDay{
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 30px;
+    width: 130px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+
+#btn8{
+    margin-top: 29px;
+    width: 180px;
+    height: 35px;
+    margin-left: 52px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+    
+#btn8:hover{
+    background-color: rgb(118, 112, 112);
+    color: white;
+}
+
+#bill{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+#billResult{
+    color: red;
+    margin-left: 30px;
+    font-size: 17px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.problem10{
+    width: 340px;
+    height: 490px;
+    box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -webkit-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+   -moz-box-shadow: 0px 7px 56px -6px rgba(0,0,0,0.76);
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+#flight_ticket{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 29px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#class_type{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 17px; 
+}
+
+#classType{
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 30px;
+    width: 230px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    margin-bottom: 25px;
+}
+
+#luggage_weight{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 17px; 
+}
+
+#luggageWeight{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 30px;
+    width: 230px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.75);
+    margin-bottom: 25px;
+}
+
+#isStudent{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+#isSenior{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+#btn9{
+    margin-top: 29px;
+    width: 180px;
+    height: 35px;
+    margin-left: 82px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+    
+#btn9:hover{
+    background-color: rgb(118, 112, 112);
+    color: white;
+}
+
+#flight_rst{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+#flightResult{
+    color: red;
+    margin-left: 30px;
+    font-size: 17px;
+    list-style: none;
+    margin-bottom: 20px;
+}
